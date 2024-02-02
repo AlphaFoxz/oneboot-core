@@ -10,7 +10,6 @@ module com.github.alphafoxz.oneboot.core {
     requires com.fasterxml.jackson.databind;
     requires jakarta.annotation;
     requires spring.boot;
-    requires spring.data.commons;
     requires org.slf4j;
     requires java.scripting;
     requires java.desktop;
