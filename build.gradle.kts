@@ -1,6 +1,6 @@
 var rootGroupId = "com.github.AlphaFoxz"
 var rootArtifactId = "oneboot-core"
-var rootVersion = "dev-SNAPSHOT"
+var rootVersion = "0.0.1-alpha.0"
 plugins {
     id("java-library")
     id("org.springframework.boot")
@@ -11,27 +11,20 @@ java {
     sourceCompatibility = JavaVersion.VERSION_21
     targetCompatibility = JavaVersion.VERSION_21
 }
+group = rootGroupId
+version = rootVersion
+repositories {
+    mavenCentral()
+}
 tasks.bootJar {
     enabled = false
 }
 tasks.jar {
     enabled = true
-    archiveClassifier.set("")
+    archiveClassifier = ""
 }
-apply(plugin = "java-library")
-apply(plugin = "org.springframework.boot")
-apply(plugin = "io.spring.dependency-management")
-apply(plugin = "maven-publish")
-group = rootGroupId
-version = rootVersion
 configurations.all {
     resolutionStrategy.cacheChangingModulesFor(1, TimeUnit.SECONDS)
-}
-repositories {
-    mavenCentral()
-    maven {
-        url = uri("https://jitpack.io")
-    }
 }
 dependencyManagement {
     imports {

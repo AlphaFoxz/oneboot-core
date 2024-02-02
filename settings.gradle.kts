@@ -6,5 +6,4 @@ pluginManagement {
         id("io.spring.dependency-management") version springDependencyManagementPluginVersion
     }
 }
-
 rootProject.name = "oneboot-core"
