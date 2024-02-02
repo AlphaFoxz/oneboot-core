@@ -1,6 +1,6 @@
 var rootGroupId = "com.github.AlphaFoxz"
 var rootArtifactId = "oneboot-core"
-var rootVersion = "0.0.1-alpha.0"
+var rootVersion = "dev-SNAPSHOT"
 plugins {
     id("java-library")
     id("org.springframework.boot")
