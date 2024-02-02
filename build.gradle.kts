@@ -2,7 +2,6 @@ var rootGroupId = "com.github.AlphaFoxz"
 var rootArtifactId = "oneboot-core"
 var rootVersion = "0.0.1-alpha.0"
 plugins {
-    id("java")
     id("java-library")
     id("org.springframework.boot")
     id("io.spring.dependency-management")
@@ -19,7 +18,6 @@ tasks.jar {
     enabled = true
     archiveClassifier.set("")
 }
-apply(plugin = "java")
 apply(plugin = "java-library")
 apply(plugin = "org.springframework.boot")
 apply(plugin = "io.spring.dependency-management")
@@ -56,7 +54,7 @@ dependencies {
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     compileOnly("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
-    compileOnly("org.springframework.boot:spring-boot-starter-jooq")
+    compileOnly("org.springframework.boot:spring-boot-starter")
     api("cn.hutool:hutool-all")
 }
 publishing {
