@@ -13,8 +13,8 @@ public class CoreProperties {
 
     @Data
     public static class SnowflakePropertiesBean {
-        private Long workerId;
-        private Long datacenterId;
+        private Long workerId = 1L;
+        private Long datacenterId = 1L;
     }
 
 }

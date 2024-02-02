@@ -48,6 +48,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     compileOnly("com.fasterxml.jackson.datatype:jackson-datatype-jsr310")
     compileOnly("org.springframework.boot:spring-boot-starter")
+    annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
     api("cn.hutool:hutool-all")
 }
 publishing {
