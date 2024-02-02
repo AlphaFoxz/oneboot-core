@@ -16,6 +16,7 @@ tasks.bootJar {
 }
 tasks.jar {
     enabled = true
+    archiveClassifier.set("")
 }
 apply(plugin = "java-library")
 apply(plugin = "org.springframework.boot")
