@@ -6,7 +6,7 @@ import org.springframework.lang.Nullable;
 /**
  * 访问控制API
  */
-public interface AbacService {
+public interface AbacFilter {
     public boolean access(@NonNull Long subjectId,
                           @NonNull String schemaName,
                           @NonNull String tableName,
