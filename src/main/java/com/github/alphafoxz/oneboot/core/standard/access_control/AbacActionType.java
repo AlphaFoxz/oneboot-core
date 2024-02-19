@@ -32,10 +32,4 @@ public interface AbacActionType {
         return READ.equals(action);
     }
 
-    /**
-     * 是否为更新性质的操作
-     */
-    public static boolean isUpdatableAction(String action) {
-        return CREATE.equals(action) || UPDATE.equals(action) || LOGIC_DELETE.equals(action) || DELETE.equals(action);
-    }
 }
