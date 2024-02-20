@@ -1,4 +1,4 @@
-package com.github.alphafoxz.oneboot.core.standard.framework;
+package com.github.alphafoxz.oneboot.core.standard.service;
 
 import org.slf4j.Logger;
 import org.springframework.lang.NonNull;

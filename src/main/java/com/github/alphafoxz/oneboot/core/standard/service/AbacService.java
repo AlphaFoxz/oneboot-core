@@ -1,4 +1,4 @@
-package com.github.alphafoxz.oneboot.core.standard.framework;
+package com.github.alphafoxz.oneboot.core.standard.service;
 
 import com.github.alphafoxz.oneboot.core.exceptions.OnebootAuthException;
 import com.github.alphafoxz.oneboot.core.standard.access_control.AbacPolicy;

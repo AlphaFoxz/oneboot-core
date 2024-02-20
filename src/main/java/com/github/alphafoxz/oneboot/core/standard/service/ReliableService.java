@@ -1,4 +1,4 @@
-package com.github.alphafoxz.oneboot.core.standard.framework;
+package com.github.alphafoxz.oneboot.core.standard.service;
 
 public interface ReliableService {
     public void startTransaction();

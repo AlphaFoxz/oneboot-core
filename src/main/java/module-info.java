@@ -13,6 +13,7 @@ module com.github.alphafoxz.oneboot.core {
     requires org.slf4j;
     requires java.scripting;
     requires java.desktop;
+    requires org.mapstruct;
 
     exports com.github.alphafoxz.oneboot.core.toolkit.coding;
     exports com.github.alphafoxz.oneboot.core;
