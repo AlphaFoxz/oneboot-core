@@ -1,4 +1,4 @@
-module com.github.alphafoxz.oneboot.core {
+module com.github.alphafoxz.oneboot_core {
     requires cn.hutool;
     requires org.springdoc.openapi.common;
     requires io.swagger.v3.oas.models;
