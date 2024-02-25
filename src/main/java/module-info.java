@@ -16,6 +16,7 @@ module com.github.alphafoxz.oneboot_core {
     requires org.mapstruct;
 
     exports com.github.alphafoxz.oneboot.core.toolkit.coding;
+    exports com.github.alphafoxz.oneboot.core.toolkit.tuple;
     exports com.github.alphafoxz.oneboot.core;
     exports com.github.alphafoxz.oneboot.core.annotations.spring;
     exports com.github.alphafoxz.oneboot.core.configuration;

@@ -1,4 +1,4 @@
-package com.github.alphafoxz.oneboot.core.toolkit.container.tuple;
+package com.github.alphafoxz.oneboot.core.toolkit.tuple;
 
 import com.github.alphafoxz.oneboot.core.exceptions.OnebootApiDesignException;
 import org.springframework.http.HttpStatus;
