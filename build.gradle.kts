@@ -40,6 +40,8 @@ dependencyManagement {
         dependency("org.mapstruct:mapstruct-processor:1.5.5.Final") // java代码生成器
         dependency("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0") // api文档
         /** 持久化组件 */
+        dependency("com.mysql:mysql-connector-j:8.3.0") // mysql驱动
+        dependency("mysql:mysql-connector-java:8.0.33") // mysql驱动 （停止更新）
         dependency("org.jooq:jooq-postgres-extensions:3.18.7") // jooq
         dependency("org.jooq:jooq-codegen:3.18.7") // jooq
         /** 文档处理 */
